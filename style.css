@@ -1,0 +1,51 @@
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 640px;
+    height: 640px;
+    margin: auto;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 80px;
+    height: 80px;
+    border: 1px solid whitesmoke;
+  }
+  
+  .white {
+    background-color: white;
+  }
+  
+  .lightblue {
+    background-color: rgb(224, 236, 240);
+  }
+  .player {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+  }
+   .enemy {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+  }
+  .rock {
+    width: 80px;
+    height: 80px;
+    background-color: lightslategray;
+  }
+  .goal {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+  }
+ 
+  
+  
+  
